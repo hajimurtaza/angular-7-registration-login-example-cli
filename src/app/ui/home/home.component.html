@@ -1,0 +1,50 @@
+﻿<!-- <ngb-carousel *ngIf="images">
+    <ng-template ngbSlide>
+      <img [src]="images[0]" alt="Random first slide">
+      <div class="carousel-caption">
+        <h3>First slide label</h3>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <img [src]="images[1]" alt="Random second slide">
+      <div class="carousel-caption">
+        <h3>Second slide label</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <img [src]="images[2]" alt="Random third slide">
+      <div class="carousel-caption">
+        <h3>Third slide label</h3>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
+    </ng-template>
+  </ngb-carousel> -->
+<!-- <div class="container container-fluid">
+  <div class="col">
+    <div class="row">
+        <h1>Hi {{currentUser.firstName}}!</h1>
+        <p>You're logged in with Angular 7!!</p>
+        <h3>All registered users:</h3>
+        <ul>
+            <li *ngFor="let user of users">
+                {{user.username}} ({{user.firstName}} {{user.lastName}})
+                - <a (click)="deleteUser(user.id)" class="text-danger">Delete</a>
+            </li>
+        </ul>
+    </div>
+  </div>
+</div> -->
+
+<app-header></app-header>
+<div class="container">
+    <div class="jumbotron">
+        <h1>Angular CLI v6 + Bootstrap & FontAwesome</h1>
+        <p>
+          In this tutorial you learn how to use Angular CLI v6 with Bootstrap and FontAwesome!
+        </p>
+    </div>
+  <ng-content></ng-content>
+</div>
+<app-footer></app-footer>
