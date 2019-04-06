@@ -3,11 +3,13 @@ import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [HeaderComponent, FooterComponent, HomeComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    NgbModule
   ],
   exports: [
     HomeComponent
